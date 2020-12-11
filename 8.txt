@@ -1,0 +1,8 @@
+curl -XPOST -i -H "Content-Type: application/json" -d '{"name":"Walter White","age":62,"isStudent":false,"nationality":"USA"}' http://localhost:8098/buckets/s15843/keys
+HTTP/1.1 201 Created
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s15843/keys/ZZw4DEhB3PoqndzhMoreJ4wLmf1
+Date: Fri, 11 Dec 2020 16:24:19 GMT
+Content-Type: application/json
+Content-Length: 0

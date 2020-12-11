@@ -1,0 +1,13 @@
+curl -i http://localhost:8098/buckets/s15843/keys/ZZw4DEhB3PoqndzhMoreJ4wLmf1
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvt8hs2sXRCiRMY+VwVjS4yZfFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15843>; rel="up"
+Last-Modified: Fri, 11 Dec 2020 16:24:19 GMT
+ETag: "7g4DN7wFJBRB89grsjB0iu"
+Date: Fri, 11 Dec 2020 16:24:40 GMT
+Content-Type: application/json
+Content-Length: 60
+
+'{name:Walter White,age:62,isStudent:false,nationality:USA}'

@@ -1,0 +1,7 @@
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name":"Maria Maria","age":21,"isStudent":true,"nationality":"Spain","sex":"Female"}' http://localhost:8098/buckets/s15843/keys/maria
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 11 Dec 2020 15:32:18 GMT
+Content-Type: application/json
+Content-Length: 0

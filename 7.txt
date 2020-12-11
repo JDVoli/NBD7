@@ -1,0 +1,8 @@
+curl -i http://localhost:8098/buckets/s15843/keys/hans
+HTTP/1.1 404 Object Not Found
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 11 Dec 2020 15:33:53 GMT
+Content-Type: text/plain
+Content-Length: 10
+
+not found

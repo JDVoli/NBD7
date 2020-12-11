@@ -1,0 +1,39 @@
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name":"Daniel Jablonski","age":24,"isStudent":true,"nationality":"Poland"}' http://localhost:8098/buckets/s15843/keys/daniel
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 11 Dec 2020 15:29:33 GMT
+Content-Type: application/json
+Content-Length: 0
+
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name":"Pawel Pawlowski","age":44,"isStudent":false,"nationality":"Israel"}' http://localhost:8098/buckets/s15843/keys/pawel
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 11 Dec 2020 15:30:16 GMT
+Content-Type: application/json
+Content-Length: 0
+
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name":"Arnold Schwarzenegger","age":73,"isStudent":false,"nationality":"Austria"}' http://localhost:8098/buckets/s15843/keys/arnold
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 11 Dec 2020 15:30:29 GMT
+Content-Type: application/json
+Content-Length: 0
+
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name":"Maria Maria","age":21,"isStudent":true,"nationality":"Spain"}' http://localhost:8098/buckets/s15843/keys/maria
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 11 Dec 2020 15:30:45 GMT
+Content-Type: application/json
+Content-Length: 0
+
+curl -XPUT -i -H "Content-Type: application/json" -d '{"name":"Hans Kloss","age":55,"isStudent":false,"nationality":"Germany"}' http://localhost:8098/buckets/s15843/keys/hans
+HTTP/1.1 204 No Content
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Fri, 11 Dec 2020 15:31:01 GMT
+Content-Type: application/json
+Content-Length: 0

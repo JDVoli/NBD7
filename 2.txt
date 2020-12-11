@@ -1,0 +1,13 @@
+curl -i http://localhost:8098/buckets/s15843/keys/daniel
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvt/h/KYLyGbKYEpkzGNliOXxuMmXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s15843>; rel="up"
+Last-Modified: Fri, 11 Dec 2020 15:29:33 GMT
+ETag: "7W2tXbQMWbNhi9y5gUmMxK"
+Date: Fri, 11 Dec 2020 15:31:54 GMT
+Content-Type: application/json
+Content-Length: 66
+
+'{name:Daniel Jablonski,age:24,isStudent:true,nationality:Poland}'
