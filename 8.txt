@@ -1,4 +1,4 @@
-curl -XPOST -i -H "Content-Type: application/json" -d '{"name":"Walter White","age":62,"isStudent":false,"nationality":"USA"}' http://localhost:8098/buckets/s15843/keys
+curl -XPOST -i -H "Content-Type: application/json" -d '{"name":"Walter White"}' http://localhost:8098/buckets/s15843/keys
 HTTP/1.1 201 Created
 Vary: Accept-Encoding
 Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
